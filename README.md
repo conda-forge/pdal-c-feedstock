@@ -155,4 +155,5 @@ Feedstock Maintainers
 =====================
 
 * [@Runette](https://github.com/Runette/)
+* [@hobu](https://github.com/hobu/)
 
