@@ -10,7 +10,7 @@ source:
   sha256: 6ba922a220d6af6c7d9e81270fbf6e335a451803c43b601667e57bf9947bed8a
 
 build:
-  number: 0
+  number: 1
   skip: false 
 
 requirements:
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - Runette
+    - hobu
