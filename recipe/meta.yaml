@@ -11,8 +11,6 @@ source:
 
 build:
   number: 1
-  run_exports:
-    - {{ pin_subpackage('pdal', max_pin='x.x') }}
 
 requirements:
   build:
@@ -22,7 +20,7 @@ requirements:
   host:
     - pdal
   run:
-    - pdal
+    - {{ pin_compatible('pdal', max_pin='x.x) }}
 
 test:
   commands:
