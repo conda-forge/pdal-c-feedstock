@@ -20,7 +20,7 @@ requirements:
   host:
     - pdal
   run:
-    - {{ pin_compatible('pdal', max_pin='x.x) }}
+    - {{ pin_compatible('pdal', max_pin='x.x') }}
 
 test:
   commands:
