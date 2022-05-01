@@ -1,16 +1,16 @@
 {% set name = "pdal-c" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/PDAL/CAPI/archive/refs/tags/v{{ version }}.zip
-  sha256: 62d4d2bd0c2bcb71cea7488bdda565a4f1b9a561ecc2995e474e461a97cea7a2
+  git_url: git@github.com:PDAL/CAPI.git
+  git_rev: 2.1.1
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
