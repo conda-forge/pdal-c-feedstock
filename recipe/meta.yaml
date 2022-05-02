@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://github.com/PDAL/CAPI.git
-  git_rev: 2.1.1
+  url: https://github.com/PDAL/CAPI/archive/refs/tags/v2.1.1.tar.gz
+  sha256: f10ad4592502b0c01e40f6faa0989ea6ef43f30d1c87adec3c76a2236f018dec
 
 build:
   number: 0
