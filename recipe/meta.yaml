@@ -1,16 +1,16 @@
 {% set name = "pdal-c" %}
-{% set version = "2.1.1" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/PDAL/CAPI/archive/refs/tags/v2.1.1.tar.gz
-  sha256: f10ad4592502b0c01e40f6faa0989ea6ef43f30d1c87adec3c76a2236f018dec
+  git_url: https://github.com/runette/CAPI.git
+  git_tag: remove-pipelinexecutir
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
