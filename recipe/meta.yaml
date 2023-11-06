@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/PDAL/CAPI/archive/refs/tags/v{{version}}.tar.gz
+  url: https://github.com/PDAL/CAPI/archive/refs/tags/{{version}}.tar.gz
   sha256: 07b45e8b6094f358e75a9743eef6c04ca1cb95dff1da86915a35be69289408d2
 
 build:
