@@ -1,11 +1,11 @@
-About pdal-c
-============
+About pdal-c-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdal-c-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pdal/capi
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdal-c-feedstock/blob/main/LICENSE.txt)
 
 Summary: C API for the PDAL Point Cloud Data Abstraction Layer
 
