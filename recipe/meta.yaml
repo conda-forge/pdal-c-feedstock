@@ -1,5 +1,5 @@
 {% set name = "pdal-c" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/PDAL/CAPI/archive/refs/tags/v{{version}}.tar.gz
-  sha256: 510f0bff7ad7bf51c0ca5f63441efefd60e847c9facadee47ee83f317b97bc82
+  sha256: 07b45e8b6094f358e75a9743eef6c04ca1cb95dff1da86915a35be69289408d2
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
