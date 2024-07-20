@@ -18,6 +18,7 @@ if exist "%BUILD_DIR%\pdal-c.sln" (
 	pushd "%BUILD_DIR%"
 
 	cmake ../.. ^
+      "%CMAKE_ARGS%" ^
 		-DCMAKE_BUILD_TYPE=%BUILD_TYPE% ^
 		-DCONDA_BUILD=ON ^
 		-DCMAKE_INSTALL_PREFIX:PATH="%LIBRARY_PREFIX%" ^
