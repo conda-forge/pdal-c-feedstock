@@ -9,8 +9,8 @@ channel_targets:
 cxx_compiler:
 - vs2019
 libpdal_core:
-- 2.8.2
+- 2.8.4
 pdal:
-- 2.8.2
+- 2.8.4
 target_platform:
 - win-64
