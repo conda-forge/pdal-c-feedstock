@@ -1,5 +1,5 @@
 {% set name = "pdal-c" %}
-{% set version = "2.3.0" %}
+{% set version = "2.2.3" %}
 
 package:
   name: {{ name|lower }}
