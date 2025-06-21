@@ -2,7 +2,7 @@
 
 set -ex
 
-export CXXFLAGS="${CXXFLAGS} -std=c++11"
+export CXXFLAGS="${CXXFLAGS} -std=c++11 -D_LIBCPP_DISABLE_AVAILABILITY"
 if [ "$(uname)" == "Linux" ]; then
    export LDFLAGS="${LDFLAGS} -Wl,-rpath-link,${PREFIX}/lib"
 fi
