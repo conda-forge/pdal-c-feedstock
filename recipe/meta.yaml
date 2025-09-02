@@ -9,7 +9,7 @@ source:
   url: https://github.com/PDAL/CAPI/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 69161ed5abcdde26192fd4a02b646fcb5f3451dea3bebf73e92ba2f28a7346f4
 build:
-  number: 8
+  number: 9
   skip: true  # [ppc64le]
 
 
