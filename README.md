@@ -15,7 +15,6 @@ Documentation: https://pdal.io/CAPI/doxygen/html/index.html
 
 PDAL is a C++ library for translating and manipulating point cloud data. This package provides a C API to the package.
 
-
 Current build status
 ====================
 
