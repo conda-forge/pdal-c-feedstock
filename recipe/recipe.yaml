@@ -13,7 +13,7 @@ source:
   sha256: 69161ed5abcdde26192fd4a02b646fcb5f3451dea3bebf73e92ba2f28a7346f4
 
 build:
-  number: 10
+  number: 11
   skip: ppc64le
 
 requirements:
@@ -24,8 +24,7 @@ requirements:
     - cmake
     - if: not win
       then: make
-    - if: win
-      then: ninja
+      else: ninja
   host:
     - libpdal-core
   run:
